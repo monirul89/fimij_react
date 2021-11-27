@@ -1,3 +1,28 @@
+:root {
+    scroll-behavior: smooth;
+    padding: 0;
+    margin: 0;
+    height: 0;
+}
+
+html, body{
+    padding: 0;
+    margin: 0;
+    scroll-behavior: smooth;
+}
 .hero_box {
-    height: 450px;
+    height: 500px;
+}
+.carousel-dark .carousel-caption {
+    color: #fff;
+}
+.carousel-dark .carousel-indicators [data-bs-target] {
+    background-color: #ffffff;
+}
+.footer {
+    background-color: #21252917;
+}
+.carousel-indicators [data-bs-target] {
+    width: 8px;
+    height: 8px;
 }
